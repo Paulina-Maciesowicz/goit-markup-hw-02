@@ -7,34 +7,68 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Studio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
     </head>
+
+    <!--try two color text
+    <div id="content">
+        <p>
+            <span style="color: red">czerwony tekst</span
+            ><span style="color: blue">niebieski tekst</span>
+        </p>
+        <p>
+            <span style="color: green">czerwony tekst</span
+            ><span style="color: white">niebieski tekst</span>
+        </p>
+        ... i tak dalej
+    </div> -->
 
     <body>
         <!--content-->
-        <header>
-            <!--menu-->
-            <h4><a href="/WebStudio">WebStudio</a></h4>
-            <nav>
-                <!-- navigation to other pages -->
-                <ol>
-                    <li><a href="/Agencja">Agencja</a></li>
-                    <li><a href="/Portfolio">Portfolio</a></li>
-                    <li><a href="/Kontakt">Kontakt</a></li>
-                </ol>
-            </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+48111111111">(48) 111-111-111</a>
+        <header class="header-description">
+            <div class="wrapper">
+                <!--menu-->
+                <h4><a class="webstudio" href="/index.html">WebStudio</a></h4>
+                <nav>
+                    <!-- navigation to other pages -->
+                    <ol class="wrapper">
+                        <li>
+                            <a class="link" href="/agencja.html">Agencja</a>
+                        </li>
+                        <li>
+                            <a class="link" href="/portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="link" href="/kontakt.html">Kontakt</a>
+                        </li>
+                    </ol>
+                </nav>
+                <div>
+                    <a class="link" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                    <a class="link" href="tel:+48111111111">(48) 111-111-111</a>
+                </div>
+            </div>
         </header>
         <main>
-            <div>
+            <div class="box-2">
                 <!--home page-->
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <h1 id="slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <!--button-->
-                <button type="button">Zamów usługę</button>
+                <button class="button-style" type="button">Zamów usługę</button>
             </div>
 
             <div>
-                <ul>
+                <ul class="wrapper">
                     <li>
                         <h4>LOREM IPSUM</h4>
                         <p>
@@ -72,7 +106,7 @@
             </div>
 
             <div>
-                <h2>Czym się zajmujemy</h2>
+                <h2 class="title">Czym się zajmujemy</h2>
                 <img
                     src="images/img1-squoosh.jpg"
                     width="370"
@@ -94,8 +128,8 @@
             </div>
 
             <div>
-                <h2>Nasz zespół</h2>
-                <ul>
+                <h2 class="title">Nasz zespół</h2>
+                <ul class="wrapper">
                     <li>
                         <figure>
                             <img
@@ -162,13 +196,16 @@
 
         <footer>
             <!--page-footer-->
-            <h4><a href="/WebStudio">WebStudio</a></h4>
+            <h4><a class="webstudio" href="/index.html">WebStudio</a></h4>
             <!--logo-->
             <address>
                 <p>m. Warszawa, Aleje Jerozolimskie 21</p>
                 <br />
-                <a href="mailto:info@example.com">info@example.com</a> <br />
-                <a href="tel:+48111111111">(48) 111-111-111</a>
+                <a class="link" href="mailto:info@example.com"
+                    >info@example.com</a
+                >
+                <br />
+                <a class="link" href="tel:+48111111111">(48) 111-111-111</a>
             </address>
         </footer>
     </body>

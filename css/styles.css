@@ -1,1 +1,96 @@
+/* Będzie dotyczyć wszystkich znaczników z klasą title */
+body {
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
+    flex-direction: row;
+    width: 1600px;
+    height: 2349px;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+.box-2 {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2f303a;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+#slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* Będzie dotyczyć wszystkich znaczników z klasą link */
+.link {
+    color: #212121;
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.link:hover {
+    color: rgba(33, 150, 243, 1);
+}
+
+li {
+    list-style: none;
+}
+
+/* Będzie dotyczyć wszystkich znaczników z klasą text */
+.text {
+    color: ;
+    font-size: ;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.webstudio {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.button-style {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.header-description {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+}

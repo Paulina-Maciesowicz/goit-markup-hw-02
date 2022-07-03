@@ -31,7 +31,7 @@ li{
 }
 .nasz-zespol-description{
     width: 1600px;
-    height: 648pxpx;
+    height: 648px;
     background: #F5F4FA;
 }
 .footer-description{
@@ -52,8 +52,8 @@ li{
     margin: 24px 1240px 25px 215px;
 }
 .highlight{
-font-family: "Raleway";
-color: rgba(33, 150, 243, 1);
+    font-family: "Raleway";
+    color: rgba(33, 150, 243, 1);
 }
 
 .menu-description{
@@ -63,7 +63,6 @@ color: rgba(33, 150, 243, 1);
     font-size: 14px;
     width: 254px;
     height: 16px;
-    padding: 32px 893px 32px 453px;
 }
 .contact{
     font-weight: 500;
@@ -71,6 +70,7 @@ color: rgba(33, 150, 243, 1);
     color: #757575;
     font-family: 'Roboto', sans-serif;
     display: block;
+    text-decoration: none
 }
 
 .slogan{
@@ -80,6 +80,7 @@ color: rgba(33, 150, 243, 1);
     color: #ffffff;
     text-align: center;
     padding: 200px 452px 280px 452px;
+    line-height: 1.36;
 }
 .button-style{
     background: #2196f3;
@@ -89,6 +90,16 @@ color: rgba(33, 150, 243, 1);
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
+    cursor: pointer;
+
+    constraint: Left;
+    constraint: Top;
+}
+.button-style:hover{
+  background-color: rgb(37, 66, 90);  
+}
+.button-style:focus{
+  background-color: rgb(37, 66, 90);  
 }
 
 .lorem{
@@ -102,7 +113,7 @@ color: rgba(33, 150, 243, 1);
     font-weight: 400;
     color: #757575;
     letter spacing: 3%;
-    line-height: 24px;
+    line-height: 1.71;
 }
 h2{
     font-weight: 700;
@@ -143,17 +154,22 @@ h2{
 
     font-style: Medium;
     font-size: 14px;
-    line-height: 16px;
-    line-height: 100%;
+    line-height: 1.17;
 }
 .link-2{
     text-decoration: none;
     color: #757575;
-  }
+}
 .link:hover{
     color: rgba(33, 150, 243, 1);
 }
 .link-2:hover{
+    color: rgba(33, 150, 243, 1);
+}
+.link:focus{
+    color: rgba(33, 150, 243, 1);
+}
+.link-2:focus{
     color: rgba(33, 150, 243, 1);
 }
 

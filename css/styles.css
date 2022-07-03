@@ -1,96 +1,170 @@
 /* Będzie dotyczyć wszystkich znaczników z klasą title */
-body {
+body{
     background: #ffffff;
-    font-family: "Roboto", sans-serif;
+    color:#212121
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
     flex-direction: row;
     width: 1600px;
     height: 2349px;
     justify-content: center;
     margin: 0 auto;
 }
-
-.box-2 {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: #2f303a;
-}
-
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-#slogan {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 136%;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-/* Będzie dotyczyć wszystkich znaczników z klasą link */
-.link {
-    color: #212121;
-    text-decoration: none;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-
-.link:hover {
-    color: rgba(33, 150, 243, 1);
-}
-
-li {
-    list-style: none;
-}
-
-/* Będzie dotyczyć wszystkich znaczników z klasą text */
-.text {
-    color: ;
-    font-size: ;
-}
-
-.wrapper {
+.wrapper{
     display: flex;
 }
+li{
+    list-style: none;
+}
+.header-description{
+    width: 1600px;
+    height: 80px;
+    background-color: #ffffff;
+    display: inline;
 
-.webstudio {
+}
+.slogan-description{
+    width: 1600px;
+    height: 600px;
+    background: #2f303a;
+}
+.nasz-zespol-description{
+    width: 1600px;
+    height: 648pxpx;
+    background: #F5F4FA;
+}
+.footer-description{
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+    text-decoration: none;
+}
+
+
+
+.webstudio{
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    margin: 24px 1240px 25px 215px;
+}
+.menu-description{
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    width: 254px;
+    height: 16px;
+    padding: 32px 893px 32px 453px;
+}
+.contact{
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
 }
 
-.button-style {
-    position: absolute;
+.slogan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    color: #ffffff;
+    text-align: center;
+    padding: 200px 452px 280px 452px;
+}
+.button-style{
+    background: #2196f3;
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
-
-    background: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
 }
 
-.header-description {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background-color: #ffffff;
+.lorem{
+    text-decoration: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
 }
+.lorem-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    letter spacing: 3%;
+    line-height: 24px;
+}
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    text-decoration: Bold;
+}
+.name{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.job{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.text-2{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+} 
+
+.link{
+    color: #212121;
+    text-decoration: none;
+
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+}
+.link-2{
+    text-decoration: none;
+    color: #757575;
+  }
+.link:hover{
+    color: rgba(33, 150, 243, 1);
+}
+.link-2:hover{
+    color: rgba(33, 150, 243, 1);
+}
+
+.t{
+    color: rgba(33, 33, 33, 1);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.t-description{
+    color: rgba(117, 117, 117, 1);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+

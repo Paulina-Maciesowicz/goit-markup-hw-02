@@ -12,6 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
@@ -34,12 +36,12 @@
     <body>
         <!--content-->
         <header class="header-description">
-            <div class="wrapper">
+            <div>
                 <!--menu-->
                 <h4><a class="webstudio" href="/index.html">WebStudio</a></h4>
                 <nav>
                     <!-- navigation to other pages -->
-                    <ol class="wrapper">
+                    <ol class="menu-description">
                         <li>
                             <a class="link" href="/agencja.html">Agencja</a>
                         </li>
@@ -51,27 +53,34 @@
                         </li>
                     </ol>
                 </nav>
-                <div>
-                    <a class="link" href="mailto:info@devstudio.com"
+                <div class="contact">
+                    <a class="link-2" href="mailto:info@devstudio.com"
                         >info@devstudio.com</a
                     >
-                    <a class="link" href="tel:+48111111111">(48) 111-111-111</a>
+                    <a class="link-2" href="tel:+48111111111"
+                        >(48) 111-111-111</a
+                    >
                 </div>
             </div>
         </header>
+
         <main>
-            <div class="box-2">
+            <div class="slogan-description">
                 <!--home page-->
-                <h1 id="slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <h1 class="slogan">
+                    EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+                </h1>
                 <!--button-->
-                <button class="button-style" type="button">Zamów usługę</button>
+                <a href="https://www.google.com"
+                    ><button class="button-style">Zamów usługę</button></a
+                >
             </div>
 
             <div>
                 <ul class="wrapper">
                     <li>
-                        <h4>LOREM IPSUM</h4>
-                        <p>
+                        <h4 class="lorem">LOREM IPSUM</h4>
+                        <p class="lorem-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -79,24 +88,24 @@
                     </li>
 
                     <li>
-                        <h4>LOREM IPSUM</h4>
-                        <p>
+                        <h4 class="lorem">LOREM IPSUM</h4>
+                        <p class="lorem-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <h4>LOREM IPSUM</h4>
-                        <p>
+                        <h4 class="lorem">LOREM IPSUM</h4>
+                        <p class="lorem-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <h4>LOREM IPSUM</h4>
-                        <p>
+                        <h4 class="lorem">LOREM IPSUM</h4>
+                        <p class="lorem-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -106,7 +115,7 @@
             </div>
 
             <div>
-                <h2 class="title">Czym się zajmujemy</h2>
+                <h2 class="title-style">Czym się zajmujemy</h2>
                 <img
                     src="images/img1-squoosh.jpg"
                     width="370"
@@ -127,8 +136,8 @@
                 />
             </div>
 
-            <div>
-                <h2 class="title">Nasz zespół</h2>
+            <div class="nasz-zespol-description">
+                <h2 class="title-style-2">Nasz zespół</h2>
                 <ul class="wrapper">
                     <li>
                         <figure>
@@ -139,8 +148,8 @@
                                 alt="John-SEO"
                             />
                             <figcaption>
-                                <h4>John Doe</h4>
-                                <p>Product Designer</p>
+                                <h4 class="name">John Doe</h4>
+                                <p class="job">Product Designer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -154,8 +163,8 @@
                                 alt="Angela-photographer"
                             />
                             <figcaption>
-                                <h4>John Doe</h4>
-                                <p>Product Designer</p>
+                                <h4 class="name">John Doe</h4>
+                                <p class="job">Product Designer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -169,8 +178,8 @@
                                 alt="Mike-graphic-designer"
                             />
                             <figcaption>
-                                <h4>John Doe</h4>
-                                <p>Product Designer</p>
+                                <h4 class="name">John Doe</h4>
+                                <p class="job">Product Designer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -185,8 +194,8 @@
                             />
 
                             <figcaption>
-                                <h4>John Doe</h4>
-                                <p>Product Designer</p>
+                                <h4 class="name">John Doe</h4>
+                                <p class="job">Product Designer</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -194,18 +203,16 @@
             </div>
         </main>
 
-        <footer>
+        <footer class="footer-description">
             <!--page-footer-->
             <h4><a class="webstudio" href="/index.html">WebStudio</a></h4>
             <!--logo-->
             <address>
-                <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                <p class="text">m. Warszawa, Aleje Jerozolimskie 21</p>
                 <br />
-                <a class="link" href="mailto:info@example.com"
-                    >info@example.com</a
-                >
+                <a class="text-2">info@example.com</a>
                 <br />
-                <a class="link" href="tel:+48111111111">(48) 111-111-111</a>
+                <a class="text-2">(48) 111-111-111</a>
             </address>
         </footer>
     </body>

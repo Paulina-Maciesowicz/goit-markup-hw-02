@@ -81,20 +81,22 @@ li{
     line-height: 1.36;
 }
 .button-style{
-    background: #2196f3;
+    background: #F5F4FA;
     width: 200px;
     height: 50px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
-    color: #ffffff;
+    color: #212121;
     cursor: pointer;
 }
 .button-style:hover{
-  background-color: rgb(37, 66, 90);  
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .button-style:focus{
-  background-color: rgb(37, 66, 90);  
+  background-color: #2196f3;
+  color: #ffffff;  
 }
 
 .lorem{

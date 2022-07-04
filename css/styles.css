@@ -89,9 +89,6 @@ li{
     font-weight: 700;
     color: #ffffff;
     cursor: pointer;
-
-    constraint: Left;
-    constraint: Top;
 }
 .button-style:hover{
   background-color: rgb(37, 66, 90);  
